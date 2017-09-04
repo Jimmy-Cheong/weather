@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/item_city"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="48dp">
+
+    <TextView
+        android:layout_marginStart="12dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/city"
+        android:text="@string/city"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

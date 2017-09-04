@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/weather_dialog_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:baselineAligned="true"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:src="@drawable/ic_location"/>
+        <TextView
+            android:id="@+id/dialog_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="@string/city"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:typeface="serif"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/dialog_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginTop="28dp"
+        />
+
+    <TextView
+        android:id="@+id/dialog_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_icon"
+        android:layout_marginStart="16dp"
+        android:text="@string/temp"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:typeface="monospace"
+        />
+
+
+
+
+</RelativeLayout>

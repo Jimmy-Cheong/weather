@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">完美天气</string>
+    <string name="choose_city">选择城市</string>
+    <string name="setting">设置</string>
+    <string name="about">关于</string>
+    <string name="nav_drawer_open">open drawer</string>
+    <string name="nav_drawer_close">close drawer</string>
+    <string name="temp">23℃</string>
+    <string name="update">更新时间:2017-08-12 23:00</string>
+    <string name="weather_conditon">多云</string>
+    <string name="city">北京</string>
+    <string name="weekday">星期一</string>
+    <string name="date">2017-08-31</string>
+    <string name="detail">详情</string>
+    <string name="forecast">预报</string>
+    <string name="index">生活指数</string>
+    <string name="max_temp">↑33℃</string>
+    <string name="min_temp">↓23℃</string>
+    <string name="temp_sense_keyword">体感温度</string>
+    <string name="cancel">取消</string>
+    <string name="tip">提示</string>
+    <string name="add_city">添加城市</string>
+    <string name="title">请选择省份或城市</string>
+    <string name="author">Jianming</string>
+    <string name="email">email:1358890401@qq.com</string>
+    <string name="warning">检测到定位服务已经关闭，为了给您提供更好的体验，建议您在设置里打开定位服务</string>
+</resources>

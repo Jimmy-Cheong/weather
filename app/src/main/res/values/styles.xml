@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">#FF4081</item>
+        <item name="colorPrimary">#00cc00</item>
+        <item name="colorAccent">#FF4081</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="PopUpToolbar" parent="Theme.AppCompat.Light">
+        <item name="android:background">#FF4081</item>
+    </style>
+
+    <style name="LaunchTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/bg_launcher</item>
+    </style>
+
+</resources>

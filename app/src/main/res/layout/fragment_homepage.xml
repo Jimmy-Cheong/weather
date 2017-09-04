@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.app.abby.perfectweather.view.fragment.HomePageFragment"
+    tools:ignore="RtlHardcoded">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="4dp"
+            app:contentPadding="8dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:descendantFocusability="blocksDescendants">
+
+                <TextView
+                    android:id="@+id/detail_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail"
+                 />
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_marginTop="4dp"
+                    android:id="@+id/detail_recyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/detail_title">
+                </android.support.v7.widget.RecyclerView>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_forecast"
+            app:cardCornerRadius="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            app:contentPadding="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="blocksDescendants">
+
+                <TextView
+                    android:id="@+id/title_forecast"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/forecast"
+                 />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/forecast_recyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_forecast"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_index"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="4dp"
+            app:contentPadding="8dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="blocksDescendants">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/title_index"
+                    android:text="@string/index"
+                  />
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lifeindex_recyclerview"
+                    android:layout_below="@id/title_index"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

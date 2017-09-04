@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/choose_city"
+              android:title="@string/choose_city"
+              android:icon="@drawable/ic_edit_location_black_24dp"/>
+
+    </group>
+    <item android:title="@string/app_name">
+        <menu>
+            <item android:title="@string/setting"
+                   android:id="@+id/setting"
+                   android:icon="@drawable/ic_settings_black_24dp"/>
+            <item android:id="@+id/about"
+                   android:title="@string/about"
+                   android:icon="@drawable/ic_about_24dp"/>
+        </menu>
+    </item>
+
+</menu>
